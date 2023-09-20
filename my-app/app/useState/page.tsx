@@ -7,7 +7,7 @@ export default function Click() {
 
   return (
     <div>
-      <p>Has hecho click  {count} veces</p>
+      <p>Has hecho click  {count} veces en el boton</p>
       <button onClick={() => setCount(count + 1)}>
         Click 
       </button>
